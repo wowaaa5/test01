@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684d2a55a730c634ab17b6557d60bfa2, type: 3}
+  m_Name: EmojiMappingConfig
+  m_EditorClassIdentifier: TestAssignment::EmojiMappingConfig
+  entries:
+  - keyword: satisfied
+    emojiText: "\U0001F60C"
+    emojiSprite: {fileID: 0}
+  - keyword: intrigued
+    emojiText: "\U0001F914"
+    emojiSprite: {fileID: 0}
+  - keyword: neutral
+    emojiText: "\U0001F610"
+    emojiSprite: {fileID: 0}
+  - keyword: affirmative
+    emojiText: "\U0001F44D"
+    emojiSprite: {fileID: 0}
+  - keyword: laughing
+    emojiText: "\U0001F606"
+    emojiSprite: {fileID: 0}
+  - keyword: win
+    emojiText: "\U0001F3C6"
+    emojiSprite: {fileID: 0}
+  fallbackEntry:
+    keyword: 
+    emojiText: "\U0001F4AD"
+    emojiSprite: {fileID: 0}
